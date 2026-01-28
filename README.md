@@ -21,6 +21,9 @@ If you want the PyTorch CUDA index automatically:
 pip install --index-url https://download.pytorch.org/whl/cu124 --extra-index-url https://pypi.org/simple -r requirements.txt
 ```
 
+Here is the YAML file:
+
+```bash
 $ cat jaspy-ml-requirements.yml
 
 # requirements.yml
@@ -139,4 +142,4 @@ packages:
   - wheel
   - pip
 
-
+```
